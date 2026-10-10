@@ -183,6 +183,38 @@
           }
         }
       }
+    },
+    "revenge.developer-kit": {
+      "name": "Developer Kit",
+      "description": "Tools assisting Revenge developers.",
+      "author": "Revenge",
+      "icon": "WrenchIcon",
+      "channels": {
+        "latest": "1.1.1"
+      },
+      "versions": {
+        "1.1.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.developer-kit@1.1.1.zip",
+          "sha256": "1684f73e13ed14e4b2f9c32fd96ce021ce9d9e99a73707151fe0dc21998d9275",
+          "size": 21972,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.settings": {
+              "version": "*",
+              "optional": true
+            },
+            "revenge.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
+        }
+      }
     }
   }
 }
