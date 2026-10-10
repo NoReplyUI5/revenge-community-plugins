@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "name": "Revenge Community Plugins",
+  "description": "Plugins maintained by the Revenge community.",
+  "plugins": {
+    "palmdevs.better-chat-buttons": {
+      "name": "Better Chat Buttons",
+      "description": "Hiding all annoying chat buttons, or making them never collapse, all configurable.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "ChatCheckIcon",
+      "channels": {
+        "latest": "1.0.2"
+      },
+      "versions": {
+        "1.0.2": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.better-chat-buttons@1.0.2.zip",
+          "sha256": "097cff7b1df128779f1bbf6d8c344c55bb1347d2d7b25a23d5d3c31543f655f4",
+          "size": 1975,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.better-typing-indicators": {
+      "name": "Better Typing Indicators",
+      "description": "Typing indicator in channels, with user avatars, tap to open profile, and more.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "SuperReactionIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.better-typing-indicators@1.0.0.zip",
+          "sha256": "ecfc1af36730e68528d8e98bf357ccfd8685394ad4f5da30cfefd9249bf7f718",
+          "size": 4009,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.block-youtube-ads": {
+      "name": "Block YouTube Ads",
+      "description": "Blocks ads in YouTube videos played inside the app, using AdGuard's script.",
+      "author": "Palm <629368283354628116> (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "YoutubeNeutralIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.block-youtube-ads@1.0.0.zip",
+          "sha256": "9b9ebc447610fa9e49b7ca1be56c2f1e415723d5a30051a92e803d2a33216024",
+          "size": 11718,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.hide-blocked-messages": {
+      "name": "Hide Blocked Messages",
+      "description": "Hides messages from blocked or ignored users, and optionally removes replies to them.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "DenyIcon",
+      "channels": {
+        "latest": "1.0.1"
+      },
+      "versions": {
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.hide-blocked-messages@1.0.1.zip",
+          "sha256": "f4f0890dd38f2af0f59de0452673ea03ad5d9823d43834cfc9665f7311c3383b",
+          "size": 1425,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.link-alert-copy": {
+      "name": "Link Alert Copy",
+      "description": "Shows a Copy Link button in the \"Leaving Discord\" alert.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "LinkIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.link-alert-copy@1.0.0.zip",
+          "sha256": "94540d37c421836603776314c48e13e74e26492013ebb8c6cf0367856a6423b9",
+          "size": 936,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.silent-typing": {
+      "name": "Silent Typing",
+      "description": "Disables the typing indicator when you type.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "KeyboardIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.silent-typing@1.0.0.zip",
+          "sha256": "13a3b04fb150dccb694cac2285d3263cb50952156633eb462e208254a9faf25e",
+          "size": 704,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "palmdevs.tenor-gif-search": {
+      "name": "Tenor GIF Search",
+      "description": "Brings back Tenor GIF search to Discord.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "GifIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.tenor-gif-search@1.0.0.zip",
+          "sha256": "0477228a569004513172f82d60ca0d6f3a06e7af9b15e3749927738ca3b4384b",
+          "size": 2322,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
