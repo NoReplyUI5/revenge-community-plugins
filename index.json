@@ -190,7 +190,7 @@
       "author": "Revenge",
       "icon": "WrenchIcon",
       "channels": {
-        "latest": "1.1.1"
+        "latest": "1.1.2"
       },
       "versions": {
         "1.1.1": {
@@ -203,6 +203,27 @@
             },
             "discord": {
               "version": "*"
+            },
+            "revenge.settings": {
+              "version": "*",
+              "optional": true
+            },
+            "revenge.api.hidden": {
+              "version": "*",
+              "optional": true
+            }
+          }
+        },
+        "1.1.2": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.developer-kit@1.1.2.zip",
+          "sha256": "4895beb0eb089d10ad2e616bb5bb28c8815f429897e4023941934de094e5b94d",
+          "size": 21970,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": ">=350.4"
             },
             "revenge.settings": {
               "version": "*",
